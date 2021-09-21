@@ -1,6 +1,8 @@
 package com.example.CrudAPI.services;
 
-import Todo;
+
+import com.example.CrudAPI.model.Todo;
+
 import java.util.List;
 
 

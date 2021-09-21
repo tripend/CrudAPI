@@ -1,6 +1,7 @@
 package com.example.CrudAPI.repositories;
 
-import Todo;
+
+import com.example.CrudAPI.model.Todo;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
