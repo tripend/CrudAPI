@@ -1,4 +1,4 @@
-package com.example.CrudAPI;
+package com.example.CrudAPI.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

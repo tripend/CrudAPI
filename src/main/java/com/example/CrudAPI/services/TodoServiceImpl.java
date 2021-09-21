@@ -1,6 +1,6 @@
 package com.example.CrudAPI.services;
 
-import com.example.CrudAPI.Todo;
+import Todo;
 import com.example.CrudAPI.repositories.TodoRepository;
 import org.springframework.stereotype.Service;
 

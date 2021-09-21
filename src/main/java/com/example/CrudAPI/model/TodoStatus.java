@@ -1,4 +1,4 @@
-package com.example.CrudAPI;
+package com.example.CrudAPI.model;
 
 public enum TodoStatus {
     COMPLETED, NOT_COMPLETED
