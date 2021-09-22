@@ -23,15 +23,15 @@ public class TodoLoader implements CommandLineRunner {
         if (todoRepository.count() == 0) {
             todoRepository.save(
                     Todo.builder()
-                            .title("Go to market")
-                            .description("Buy eggs from market")
+                            .title("Paintball at 7")
+                            .description("Paintball with friends")
                             .todoStatus(TodoStatus.NOT_COMPLETED)
                             .build()
             );
             todoRepository.save(
                     Todo.builder()
-                            .title("Go to school")
-                            .description("Complete assignments")
+                            .title("Call mom before dinner")
+                            .description("Call should last 15 minutes")
                             .todoStatus(TodoStatus.NOT_COMPLETED)
                             .build()
             );
